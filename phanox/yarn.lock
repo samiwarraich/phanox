@@ -1150,6 +1150,11 @@
     "@reach/utils" "0.16.0"
     tslib "^2.3.0"
 
+"@reach/observe-rect@^1.1.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@reach/observe-rect/-/observe-rect-1.2.0.tgz#d7a6013b8aafcc64c778a0ccb83355a11204d3b2"
+  integrity sha512-Ba7HmkFgfQxZqqaeIWWkNK0rEhpxVQHIoVyW1YDSkGsGIXzcaW4deC8B0pZrNSSyLTdIk7y+5olKt5+g0GmFIQ==
+
 "@reach/utils@0.13.2":
   version "0.13.2"
   resolved "https://registry.npmjs.org/@reach/utils/-/utils-0.13.2.tgz#87e8fef8ebfe583fa48250238a1a3ed03189fcc8"
@@ -1172,10 +1177,10 @@
   resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.1.3.tgz#6801033be7ff87a6b7cadaf5b337c9f366a3c4b0"
   integrity sha512-WiBSI6JBIhC6LRIsB2Kwh8DsGTlbBU+mLRxJmAe3LjHTdkDpwIbEOZgoXBbZilk/vlfjK8i6nKRAvIRn1XaIMw==
 
-"@sanity/asset-utils@^1.2.0":
-  version "1.2.3"
-  resolved "https://registry.npmjs.org/@sanity/asset-utils/-/asset-utils-1.2.3.tgz#a90c7895c6506405d64c2363db131923ba1fa6ef"
-  integrity sha512-0eOR0D6zcqd6nEmAGIJ93ibRGO6ocYzQ5aEuyYvngHy5MDDjUfC821UnF/YPIcxiMXg2DLDjWd4EPt9F8frKNQ==
+"@sanity/asset-utils@^1.2.0", "@sanity/asset-utils@^1.2.5":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@sanity/asset-utils/-/asset-utils-1.3.0.tgz#6460cd993a2c24368a6308028f3bc57df91f131e"
+  integrity sha512-uyIOtGA4Duf+68I3BSbYHY5P+WGftn3QtNJD2Pn7h9WPGYsSrWViIPebE9yRN8N0NHhYj+hDQXaMpVdjG7r+zA==
 
 "@sanity/asset-utils@^1.2.5":
   version "1.3.0"
@@ -1438,23 +1443,28 @@
     "@sanity/generate-help-url" "^3.0.0"
     lodash "^4.17.15"
 
-"@sanity/default-layout@^2.29.5":
-  version "2.29.5"
-  resolved "https://registry.npmjs.org/@sanity/default-layout/-/default-layout-2.29.5.tgz#02743ffe6e4191770b678e0d21c6e9c9db9f389c"
-  integrity sha512-zqni5Dp/k6faO95Ugg480Hj3IDwrfbH+Cq3L1091RSjIHkeZ+/Fc1ohlRPeGRXu6vJ9BV0wBuc2eM/6UxmHFAQ==
+"@sanity/default-layout@^2.35.5":
+  version "2.35.5"
+  resolved "https://registry.yarnpkg.com/@sanity/default-layout/-/default-layout-2.35.5.tgz#c776713a4a541aa1df7896f0477f009d26ceebc3"
+  integrity sha512-YicNyiJl8bmy6TTovBzXpfPYnjkr9kbVYizUxSGLBmZGSQf/w0cUQKWadMTgHzmgPxysqUqzBOlkyTSOcFH4Iw==
   dependencies:
     "@portabletext/react" "^1.0.0"
-    "@sanity/asset-utils" "^1.2.0"
-    "@sanity/base" "2.29.5"
-    "@sanity/client" "^3.2.0"
+    "@reach/auto-id" "^0.13.2"
+    "@sanity/asset-utils" "^1.2.5"
+    "@sanity/base" "2.35.5"
+    "@sanity/client" "^3.3.3"
     "@sanity/generate-help-url" "^3.0.0"
-    "@sanity/icons" "^1.2.6"
+    "@sanity/icons" "^1.3.4"
     "@sanity/image-url" "^1.0.1"
-    "@sanity/logos" "^1.1.9"
-    "@sanity/ui" "^0.37.6"
-    "@sanity/util" "2.29.5"
+    "@sanity/logos" "^1.1.15"
+    "@sanity/ui" "^0.37.22"
+    "@sanity/util" "2.35.0"
+    debug "^3.2.7"
+    is-hotkey "^0.1.6"
     lodash "^4.17.15"
+    react-focus-lock "^2.5.0"
     react-rx "^1.0.0-beta.6"
+    react-virtual "^2.10.4"
     rxjs "^6.5.3"
 
 "@sanity/default-login@^2.29.5":
@@ -1785,7 +1795,6 @@
     leven "^3.1.0"
     lodash "^4.17.15"
     object-inspect "^1.6.0"
-
 "@sanity/schema@3.0.0-v3-pte.88+76383ff4e":
   version "3.0.0-v3-pte.88"
   resolved "https://registry.yarnpkg.com/@sanity/schema/-/schema-3.0.0-v3-pte.88.tgz#24e5547fc5ccafac65d3b484b50875b78c9cf82a"
@@ -8798,6 +8807,13 @@ react-use-measure@^2.1.1:
   integrity sha512-nocZhN26cproIiIduswYpV5y5lQpSQS1y/4KuvUCjSKmw7ZWIS/+g3aFnX3WdBkyuGUtTLif3UTqnLLhbDoQig==
   dependencies:
     debounce "^1.2.1"
+
+react-virtual@^2.10.4:
+  version "2.10.4"
+  resolved "https://registry.yarnpkg.com/react-virtual/-/react-virtual-2.10.4.tgz#08712f0acd79d7d6f7c4726f05651a13b24d8704"
+  integrity sha512-Ir6+oPQZTVHfa6+JL9M7cvMILstFZH/H3jqeYeKI4MSUX+rIruVwFC6nGVXw9wqAw8L0Kg2KvfXxI85OvYQdpQ==
+  dependencies:
+    "@reach/observe-rect" "^1.1.0"
 
 react@^17.0:
   version "17.0.2"
