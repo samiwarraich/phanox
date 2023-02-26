@@ -13,3 +13,16 @@ updates:
     labels:
       - "npm"
       - "dependencies"
+  - package-ecosystem: "npm"
+    directory: "/phanox"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "samiwarraich"
+    reviewers:
+      - "samiwarraich"
+    commit-message:
+      prefix: "npm"
+    labels:
+      - "npm"
+      - "dependencies"
