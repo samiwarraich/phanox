@@ -11,7 +11,7 @@
   "dependencies": {
     "@sanity/client": "^3.4.1",
     "@sanity/image-url": "^1.0.1",
-    "@stripe/stripe-js": "^1.47.0",
+    "@stripe/stripe-js": "^1.48.0",
     "canvas-confetti": "^1.6.0",
     "next": "12.1.0",
     "next-sanity-image": "^5.0.0",
