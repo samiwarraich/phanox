@@ -1682,12 +1682,12 @@
     react-virtual "^2.10.4"
     rxjs "^6.5.3"
 
-"@sanity/default-login@^2.35.5":
-  version "2.35.5"
-  resolved "https://registry.yarnpkg.com/@sanity/default-login/-/default-login-2.35.5.tgz#07e2f131f041f20062914b1241e4b4b224816f17"
-  integrity sha512-77haS3cx+e6WqrNhCQiIep/W8mm+E2k3I5t5/bpI1WzkSo0eL+dHy5mlQADOhB0AUd3uonWTYYwdZsSQRUZovw==
+"@sanity/default-login@^2.35.7":
+  version "2.35.7"
+  resolved "https://registry.yarnpkg.com/@sanity/default-login/-/default-login-2.35.7.tgz#067961545f4e06521d05cbc82a80c66e16be7be2"
+  integrity sha512-Lx3SiD0lNTtUj5gnGYEyXbX425Hr2w+4mcL7XC56otJDpvw0x/n9SY6gjxOEiHKiqoFtxHYPYfP1ftTsugaYKA==
   dependencies:
-    "@sanity/base" "2.35.5"
+    "@sanity/base" "2.35.7"
     "@sanity/client" "^3.3.3"
     "@sanity/generate-help-url" "^3.0.0"
     "@sanity/logos" "^1.1.15"
