@@ -432,15 +432,7 @@
     "@babel/helper-remap-async-to-generator" "^7.18.9"
     "@babel/plugin-syntax-async-generators" "^7.8.4"
 
-"@babel/plugin-proposal-class-properties@^7.10.4":
-  version "7.16.7"
-  resolved "https://registry.npmjs.org/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.16.7.tgz#925cad7b3b1a2fcea7e59ecc8eb5954f961f91b0"
-  integrity sha512-IobU0Xme31ewjYOShSIqd/ZGM/r/cuOz2z0MDbNrhF5FW+ZVgi0f2lyeoj9KFPDOAqsYxmLWZte1WOwlvY9aww==
-  dependencies:
-    "@babel/helper-create-class-features-plugin" "^7.16.7"
-    "@babel/helper-plugin-utils" "^7.16.7"
-
-"@babel/plugin-proposal-class-properties@^7.18.6":
+"@babel/plugin-proposal-class-properties@^7.10.4", "@babel/plugin-proposal-class-properties@^7.18.6":
   version "7.18.6"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.18.6.tgz#b110f59741895f7ec21a6fff696ec46265c446a3"
   integrity sha512-cumfXOF0+nzZrrN8Rf0t7M+tF6sZc7vhQwYQck9q1/5w2OExlD+b4v4RpMJFaV1Z7WcDRgO6FqvxqxGlwo+RHQ==
@@ -1413,68 +1405,6 @@
   resolved "https://registry.yarnpkg.com/@sanity/asset-utils/-/asset-utils-1.3.0.tgz#6460cd993a2c24368a6308028f3bc57df91f131e"
   integrity sha512-uyIOtGA4Duf+68I3BSbYHY5P+WGftn3QtNJD2Pn7h9WPGYsSrWViIPebE9yRN8N0NHhYj+hDQXaMpVdjG7r+zA==
 
-"@sanity/base@2.35.5":
-  version "2.35.5"
-  resolved "https://registry.yarnpkg.com/@sanity/base/-/base-2.35.5.tgz#249c5c863ec063ed1947ec8c1b3652882b6872fb"
-  integrity sha512-lphKLzCo2HTJic1ubG/XIw47reCKvKrXw1ytvAR/TXkBaYKgpGjjmgoG+SyNisCIJomrG2SHfv0mDbNMF2+how==
-  dependencies:
-    "@juggle/resize-observer" "^3.3.1"
-    "@popperjs/core" "^2.5.4"
-    "@reach/auto-id" "^0.13.2"
-    "@sanity/asset-utils" "^1.2.5"
-    "@sanity/bifur-client" "0.3.0"
-    "@sanity/client" "^3.3.3"
-    "@sanity/color" "^2.1.14"
-    "@sanity/generate-help-url" "^3.0.0"
-    "@sanity/icons" "^1.3.4"
-    "@sanity/image-url" "^1.0.1"
-    "@sanity/initial-value-templates" "2.35.3"
-    "@sanity/mutator" "2.33.2"
-    "@sanity/schema" "2.35.0"
-    "@sanity/state-router" "2.35.3"
-    "@sanity/structure" "2.35.3"
-    "@sanity/transaction-collator" "2.35.3"
-    "@sanity/types" "2.35.0"
-    "@sanity/ui" "^0.37.22"
-    "@sanity/util" "2.35.0"
-    "@sanity/validation" "2.35.0"
-    boundless-arrow-key-navigation "^1.1.0"
-    circular-at "^1.0.3"
-    classnames "^2.2.5"
-    dataloader "^2.0.0"
-    date-fns "^2.16.1"
-    debug "^3.2.7"
-    dom-scroll-into-view "^1.2.1"
-    element-resize-detector "^1.1.14"
-    groq-js "^0.2.0"
-    history "^4.6.3"
-    json-reduce "^2.0.0"
-    lodash "^4.17.15"
-    nano-pubsub "^2.0.1"
-    nanoid "^3.1.30"
-    observable-callback "^1.0.1"
-    pluralize "^7.0.0"
-    polished "^4.0.5"
-    popper-max-size-modifier "^0.2.0"
-    raf "^3.4.1"
-    react-click-outside "^3.0.0"
-    react-fast-compare "^3.2.0"
-    react-icon-base "^2.1.2"
-    react-is "^17.0.2"
-    react-popper "^2.2.4"
-    react-props-stream "^1.0.0"
-    react-refractor "^2.1.6"
-    react-rx "^1.0.0-beta.6"
-    react-sortable-hoc "^1.11.0"
-    react-split-pane "^0.1.84"
-    refractor "^3.6.0"
-    rxjs "^6.5.3"
-    rxjs-etc "^10.6.0"
-    rxjs-exhaustmap-with-trailing "^1.2.0"
-    semver-compare "^1.0.0"
-    shallow-equals "^1.0.0"
-    use-device-pixel-ratio "^1.1.0"
-
 "@sanity/base@2.35.7", "@sanity/base@^2.35.7":
   version "2.35.7"
   resolved "https://registry.yarnpkg.com/@sanity/base/-/base-2.35.7.tgz#f0f411b95a31ec93b2523d33e3d39f8ed1bcd388"
@@ -1577,10 +1507,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/color/-/color-2.2.3.tgz#ec8d9ba4bd42163f6487df3e47350a9a828c3210"
   integrity sha512-b4e6JAHHa/tKpAnLOAHaJyNEHO1l/g2oecN22FWkhTAuKCINPNhPeoeUn5rK5ngKzbXrvynBd/h2849lld3FRg==
 
-"@sanity/core@^2.35.6":
-  version "2.35.6"
-  resolved "https://registry.yarnpkg.com/@sanity/core/-/core-2.35.6.tgz#0d2393666c82d6c875e03697562defcb95154182"
-  integrity sha512-WqrcGvXlCTWwenvw7iUMTSbwhpCd07eSr4XobssiHq70iKwiVNZ0C1GOIdRZ/4n78nGnvZknCf/tdMh7x5dmlg==
+"@sanity/core@^2.35.7":
+  version "2.35.7"
+  resolved "https://registry.yarnpkg.com/@sanity/core/-/core-2.35.7.tgz#a28ad9dc387afb46c3b1811d6901d8290d5619bd"
+  integrity sha512-odHSN87ILsgX+Kbhooi1Trh4vF6MQMtFO7ldnjlnCtvcv3DdPeTuMGif7UBM69zsEdCfbrHVCj+Ktguqk6cdfQ==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.10.4"
     "@babel/preset-env" "^7.11.5"
@@ -1590,7 +1520,7 @@
     "@sanity/eventsource" "^3.0.1"
     "@sanity/export" "2.35.5"
     "@sanity/generate-help-url" "^3.0.0"
-    "@sanity/import" "2.33.2"
+    "@sanity/import" "2.35.7"
     "@sanity/plugin-loader" "2.35.3"
     "@sanity/resolver" "2.35.3"
     "@sanity/schema" "2.35.0"
@@ -1877,10 +1807,10 @@
     debug "^3.2.7"
     lodash "^4.17.15"
 
-"@sanity/import@2.33.2":
-  version "2.33.2"
-  resolved "https://registry.yarnpkg.com/@sanity/import/-/import-2.33.2.tgz#50065d252e8f086468bdf64ad88b016684366a50"
-  integrity sha512-Pz8bQQxRgpUTw+nXESKW8g22YLGa/uQCSiBRa61mn9TG7Ug7k7PLNmWsjLWNZ8ePyhBHEG04vSsE6wm1YFA/Cg==
+"@sanity/import@2.35.7":
+  version "2.35.7"
+  resolved "https://registry.yarnpkg.com/@sanity/import/-/import-2.35.7.tgz#97097b2f227c58452eb0e789f11d6baacc486adf"
+  integrity sha512-q0M8/An7KeZXZNRRwx2N/TIsOA3fNtfnlgAjiT6hKa3E+FCIx2NvO853a970KXCodKI/VNK/W9zvaMBtM7NCbw==
   dependencies:
     "@sanity/asset-utils" "^1.2.5"
     "@sanity/generate-help-url" "^3.0.0"
@@ -2061,19 +1991,6 @@
     debug "^3.2.7"
     lodash "^4.17.15"
     nano-pubsub "^2.0.1"
-
-"@sanity/structure@2.35.3":
-  version "2.35.3"
-  resolved "https://registry.yarnpkg.com/@sanity/structure/-/structure-2.35.3.tgz#745daf0c54b0a56dabf06d46e3231beb1d9e8b18"
-  integrity sha512-bbwj/PRN162Z9y0vch8Xf+oe+WAJ7L6Ht/yZJBkYQK5DG84UBlDlhMez9EUIuxNP9HBe+ha1T0DBHthHxPAEWg==
-  dependencies:
-    "@sanity/client" "^3.3.3"
-    "@sanity/icons" "^1.3.4"
-    "@sanity/initial-value-templates" "2.35.3"
-    "@types/lodash" "^4.14.149"
-    "@types/memoize-one" "^3.1.1"
-    lodash "^4.17.15"
-    memoize-one "^3.1.1"
 
 "@sanity/structure@2.35.7":
   version "2.35.7"
