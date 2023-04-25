@@ -1417,7 +1417,7 @@
   resolved "https://registry.yarnpkg.com/@sanity/asset-utils/-/asset-utils-1.3.0.tgz#6460cd993a2c24368a6308028f3bc57df91f131e"
   integrity sha512-uyIOtGA4Duf+68I3BSbYHY5P+WGftn3QtNJD2Pn7h9WPGYsSrWViIPebE9yRN8N0NHhYj+hDQXaMpVdjG7r+zA==
 
-"@sanity/base@2.35.7", "@sanity/base@^2.35.7":
+"@sanity/base@2.35.7":
   version "2.35.7"
   resolved "https://registry.yarnpkg.com/@sanity/base/-/base-2.35.7.tgz#f0f411b95a31ec93b2523d33e3d39f8ed1bcd388"
   integrity sha512-MNEeOwh+TxlSyQveXIVs4DItil3V4lEFukQ6TUDNk4KFcSeY3KVLBsvPiOtjexkt8pehgz6Z5Hls9kS8AUCe5g==
@@ -1479,7 +1479,7 @@
     shallow-equals "^1.0.0"
     use-device-pixel-ratio "^1.1.0"
 
-"@sanity/base@2.36.1":
+"@sanity/base@2.36.1", "@sanity/base@^2.35.7":
   version "2.36.1"
   resolved "https://registry.yarnpkg.com/@sanity/base/-/base-2.36.1.tgz#6862770688a80b7474dec9c83803a3f0913c5239"
   integrity sha512-AXYMyEQ2nARh14Na0sQq76HBWq1rcfhltxeJsb5Ok6fqNro7E6fQoCeDAzADzU5EkT8cD5S5bHqWB2QU0eCQ1Q==
@@ -1686,12 +1686,12 @@
     react-virtual "^2.10.4"
     rxjs "^6.5.3"
 
-"@sanity/default-login@^2.35.7":
-  version "2.35.7"
-  resolved "https://registry.yarnpkg.com/@sanity/default-login/-/default-login-2.35.7.tgz#067961545f4e06521d05cbc82a80c66e16be7be2"
-  integrity sha512-Lx3SiD0lNTtUj5gnGYEyXbX425Hr2w+4mcL7XC56otJDpvw0x/n9SY6gjxOEiHKiqoFtxHYPYfP1ftTsugaYKA==
+"@sanity/default-login@^2.36.1":
+  version "2.36.1"
+  resolved "https://registry.yarnpkg.com/@sanity/default-login/-/default-login-2.36.1.tgz#0af674bcf8776e5a54ce3a3bc483b440b8691544"
+  integrity sha512-DUc+VKBuMkdichKXyWTo4rG436nuGnV96dyJvZJfUGwTsYXAXFAiQw/KVrwsc8OJAJ68MEDxcEMc/0L4xly9qg==
   dependencies:
-    "@sanity/base" "2.35.7"
+    "@sanity/base" "2.36.1"
     "@sanity/client" "^3.3.3"
     "@sanity/generate-help-url" "^3.0.0"
     "@sanity/logos" "^1.1.15"
