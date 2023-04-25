@@ -2208,10 +2208,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@^2.35.7":
-  version "2.35.7"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-2.35.7.tgz#7c9be60c30908cd71737cfe3ce0b5baee612d5ac"
-  integrity sha512-pAbuVcXbx4kyITd6oSr7iuESJ4J04Zi8iHC5r+ZKGKt20ettZWY8Qcxlv8C4gxrETIH7TjKoYr9fnthIZ0/7jw==
+"@sanity/vision@^2.36.1":
+  version "2.36.1"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-2.36.1.tgz#340ae190f4562df093b9f276e5eff92d8f331375"
+  integrity sha512-6bzvVTPcYzBfBC0iQiiM06kbIz3YzdTZ4N//zpAjChT0pj48jdVKTOo2OcExAkcDgnB4eKC/rY2F63cD+dn9PQ==
   dependencies:
     "@juggle/resize-observer" "^3.3.1"
     "@sanity/icons" "^1.3.4"
