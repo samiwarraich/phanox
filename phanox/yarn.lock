@@ -1581,10 +1581,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/color/-/color-2.2.3.tgz#ec8d9ba4bd42163f6487df3e47350a9a828c3210"
   integrity sha512-b4e6JAHHa/tKpAnLOAHaJyNEHO1l/g2oecN22FWkhTAuKCINPNhPeoeUn5rK5ngKzbXrvynBd/h2849lld3FRg==
 
-"@sanity/core@^2.35.7":
-  version "2.35.7"
-  resolved "https://registry.yarnpkg.com/@sanity/core/-/core-2.35.7.tgz#a28ad9dc387afb46c3b1811d6901d8290d5619bd"
-  integrity sha512-odHSN87ILsgX+Kbhooi1Trh4vF6MQMtFO7ldnjlnCtvcv3DdPeTuMGif7UBM69zsEdCfbrHVCj+Ktguqk6cdfQ==
+"@sanity/core@^2.36.1":
+  version "2.36.1"
+  resolved "https://registry.yarnpkg.com/@sanity/core/-/core-2.36.1.tgz#8ce8bb476e7bf5d30ab60e6cd63a521d146d3ded"
+  integrity sha512-lgPEfToxHrOq+dON+g21Zi1n7ofFvkXnZC407xXQco630MaSU77X8tXbdcXPKbFCa84m3Nu8eDf7AvywEkoB2Q==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.10.4"
     "@babel/preset-env" "^7.11.5"
@@ -1594,7 +1594,7 @@
     "@sanity/eventsource" "^3.0.1"
     "@sanity/export" "2.35.5"
     "@sanity/generate-help-url" "^3.0.0"
-    "@sanity/import" "2.35.7"
+    "@sanity/import" "2.36.1"
     "@sanity/plugin-loader" "2.35.3"
     "@sanity/resolver" "2.35.3"
     "@sanity/schema" "2.35.0"
@@ -1881,14 +1881,14 @@
     debug "^3.2.7"
     lodash "^4.17.15"
 
-"@sanity/import@2.35.7":
-  version "2.35.7"
-  resolved "https://registry.yarnpkg.com/@sanity/import/-/import-2.35.7.tgz#97097b2f227c58452eb0e789f11d6baacc486adf"
-  integrity sha512-q0M8/An7KeZXZNRRwx2N/TIsOA3fNtfnlgAjiT6hKa3E+FCIx2NvO853a970KXCodKI/VNK/W9zvaMBtM7NCbw==
+"@sanity/import@2.36.1":
+  version "2.36.1"
+  resolved "https://registry.yarnpkg.com/@sanity/import/-/import-2.36.1.tgz#75805dbc65148301619a0f78c6492dc8e93956a9"
+  integrity sha512-Ft7xW4Vo6l8Ws2NA5wNt2fxBpi4UZQOTaUbbr8AaGijlxFx0WejLfEDTibiFfwGCZln0XbyDEF+xEZ8ZHxlkQg==
   dependencies:
     "@sanity/asset-utils" "^1.2.5"
     "@sanity/generate-help-url" "^3.0.0"
-    "@sanity/mutator" "2.33.2"
+    "@sanity/mutator" "2.36.1"
     "@sanity/uuid" "^3.0.1"
     debug "^3.2.7"
     file-url "^2.0.2"
