@@ -19,7 +19,7 @@
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.10.0",
-    "stripe": "^12.18.0"
+    "stripe": "^13.0.0"
   },
   "devDependencies": {
     "eslint": "8.47.0",
