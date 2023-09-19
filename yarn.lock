@@ -189,10 +189,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/timed-out/-/timed-out-4.0.2.tgz#c9f61f9a1609baa1eb3e4235a24ea2a775022cdf"
   integrity sha512-NBDKGj14g9Z+bopIvZcQKWCzJq5JSrdmzRR1CS+iyA3Gm8SnIWBfZa7I3mTg2X6Nu8LQXG0EPKXdOGozLS4i3w==
 
-"@stripe/stripe-js@^2.1.5":
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-2.1.5.tgz#17595710e8f4f83665402e527b0997a0274650dd"
-  integrity sha512-vKztTjPYeCcX1Y1Ug2sE5+m/Gdm4CVAKGcQiRjLHQd2hDkjkVKClx3RbCStSi9rLRy50xHCiM+/kj4fbCHHA1Q==
+"@stripe/stripe-js@^2.1.6":
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-2.1.6.tgz#569b4257564a151744205e6e12037e4103de17b2"
+  integrity sha512-QSzqQIcowgap7a40f3a7oUR+59Xet/i8fp1EsnzzwxK5oPRQsCbbLQ4Cd6qM0y1pdZMonFnCrAWayWdE9Lr0iA==
 
 "@swc/helpers@0.5.1":
   version "0.5.1"
