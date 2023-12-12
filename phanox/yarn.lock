@@ -2500,10 +2500,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@^3.20.0":
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.20.0.tgz#50db19c5f75d3d072b88769ad3b9530c771cd51a"
-  integrity sha512-QNgr4Ihrdwo06J4ch57rJfAdFFYAYEJBBaBqNIS8e3DDrtvp8BZLjKj8pUVxNBqpFQ8+eB1H+ZbqPjvPOmyGXg==
+"@sanity/vision@^3.21.2":
+  version "3.21.2"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.21.2.tgz#3a5f604e5e09b5fcc4242ddddf3d25125394c6ee"
+  integrity sha512-MbiZzAK5co6qYHio3XSQ0cDApxwVomJ4aLMqY0ugHygKPGZujdLFI8YVNdMutBNlINyZZNBhmJLFlAxVOZ8jFA==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
